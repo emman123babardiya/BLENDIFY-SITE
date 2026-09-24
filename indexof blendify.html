@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Blendify — Sip Your Mood</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<nav>
+  <div class="brand">
+    <div class="leaf" style="position:static;width:20px;height:20px;transform:rotate(-20deg);"></div>
+    <span>Blendify</span>
+  </div>
+  <ul>
+    <li><a href="#mood">Find your mood</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#visit">Visit</a></li>
+  </ul>
+  <a class="nav-cta" href="#mood">Sip your mood</a>
+</nav>
+</header>
+
+<section class="hero">
+  <div class="hero-grid">
+    <div>
+      <div class="eyebrow">Lahore's first mood-based juice café</div>
+      <h1 class="headline">Sip your <span class="accent">mood</span>, not just a drink</h1>
+      <p class="lede">Fresh fruit, exotic imports, and AI-matched blends — served in a clean, comfortable café built for sitting down, not rushing out.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="#mood">Find my blend</a>
+        <a class="btn btn-ghost" href="#menu">See the menu</a>
+      </div>
+    </div>
+    <div class="cupwrap">
+      <div class="cup">
+        <div class="straw"></div>
+        <div class="leaf"></div>
+        <div class="cupbody">
+          <div class="layer l1"></div>
+          <div class="layer l2"></div>
+          <div class="layer l3"></div>
+          <div class="layer l4"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="diff">
+  <div class="diff-grid">
+    <div class="diff-item"><div class="dot">🪑</div><h3>Actually sit down</h3><p>A real café room, not a roadside stall — come to relax, meet friends, or work.</p></div>
+    <div class="diff-item"><div class="dot">🤖</div><h3>AI mood matching</h3><p>Tell us how you feel, we suggest the blend. No other juice bar in the city does this.</p></div>
+    <div class="diff-item"><div class="dot">🐉</div><h3>Rare fruit, imported</h3><p>Dragon fruit, açaí, avocado, cloudberries, pineapple guava — kept minimally marked up.</p></div>
+    <div class="diff-item"><div class="dot">🌿</div><h3>Nothing artificial</h3><p>No sugary syrups or junk beverages — just fruit, hygiene, and a clean environment.</p></div>
+  </div>
+</section>
+
+<section class="mood" id="mood">
+  <div class="wrap">
+    <h2 class="section-title">What's your mood today?</h2>
+    <p class="section-sub">Pick how you're feeling — this is exactly the kind of personalization Blendify's AI recommender runs on.</p>
+    <div class="mood-btns" id="moodBtns">
+      <button class="mood-btn" data-m="energized">⚡ Energized</button>
+      <button class="mood-btn" data-m="chill">🌙 Need to unwind</button>
+      <button class="mood-btn" data-m="stressed">😮‍💨 Stressed</button>
+      <button class="mood-btn" data-m="adventurous">🌍 Feeling adventurous</button>
+    </div>
+    <div class="mood-result" id="moodResult">
+      <div class="mood-emoji">🥤</div>
+      <div><h4>Tap a mood above</h4><p>We'll match you with a Blendify blend.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="menu" id="menu">
+  <div class="wrap">
+    <h2 class="section-title">Full menu</h2>
+    <p class="section-sub">Every category, priced the Blendify way — fresh, fair, and a little exotic. Seasonal specials rotate in-café.</p>
+    <div class="menu-tabs" id="menuTabs">
+      <button class="tab-btn active" data-cat="juices">Juices</button>
+      <button class="tab-btn" data-cat="smoothies">Smoothies & Shakes</button>
+      <button class="tab-btn" data-cat="bowls">Bowls</button>
+      <button class="tab-btn" data-cat="more">Mocktails & More</button>
+    </div>
+    <div class="item-grid" id="itemGrid"></div>
+  </div>
+</section>
+
+<section class="promise">
+  <blockquote>“Freshness, personalization, and wellness in every blend.”</blockquote>
+  <span>— The Blendify promise</span>
+</section>
+
+<footer id="visit">
+  <div class="wrap foot-grid">
+    <div>
+      <h4>Blendify</h4>
+      <p>A café-style juice bar,<br>built for Lahore.</p>
+    </div>
+    <div>
+      <h4>Visit</h4>
+      <p>Open daily<br>10:00 AM – 11:00 PM</p>
+    </div>
+    <div>
+      <h4>Follow</h4>
+      <p>@blendify on Instagram<br>Instagram-worthy, on purpose.</p>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">Blendify — Sip Your Mood</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
